@@ -1,13 +1,13 @@
 /*Rule 10. Thread APIs (THI)
 THI00-J. Do not invoke Thread.run()
-Non-Compliant Code:*/
-public final class Foo implements Runnable {
+Compliant Code:*/
+public final class R10_THI00_J implements Runnable {
   @Override public void run() {
-    // ...
+    System.out.println("Things happening.");
   }
 
   public static void main(String[] args) {
-    Foo foo = new Foo();
-    new Thread(foo).run();
+    R10_THI00_J foo = new R10_THI00_J();
+    new Thread(foo).start();
   }
 }
