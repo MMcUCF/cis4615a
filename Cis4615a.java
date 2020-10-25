@@ -5,18 +5,18 @@
  *  Prints "Hello, World". By tradition, this is everyone's first program.
  *
  * Revision History:
- * - Added " - from the class of CIS4615 - Fall 2019 - UCF"
+ * - Added " - from the class of CIS4615 - Fall 2020 - UCF"
  *  % java Cis4615a
- *  Hello, World - from the class of CIS4615 - Fall 2019 - UCF
+ *  Hello, World - from the class of CIS4615 - Fall 2020 - UCF
  *  %
- *
+ * - Added " Daniel Borowsky "
  ******************************************************************************/
 
 public class Cis4615a {
 
     public static void main(String[] args) {
         // Prints "Hello, World" to the terminal window.
-        System.out.println("Hello, World - from the class of CIS4615 - Fall 2019 - UCF");
+        System.out.println("Hello, World - from Daniel Borowsky");
     }
 
 }
